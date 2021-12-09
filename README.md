@@ -37,7 +37,7 @@ Example usage:
 
 8. `scp you@fileserver:/your/osx-sdk.tar.gz /tmp/SDKs/`  only needed if you want to build for osx.
 
-10. `root@docker# RavenStash/bfg-fdov.sh linux master 10` <platform> <gitbranch> <makethreads>
+10. `root@docker# AvianStash/bfg-fdov.sh linux master 10` <platform> <gitbranch> <makethreads>
 
 11. Results will appear in /root/releases if everything works.
 
