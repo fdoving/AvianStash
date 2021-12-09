@@ -1,5 +1,5 @@
 #!/bin/bash
-# Quick hack made to build Ravencoin from git, with depends.
+# Quick hack made to build Avian from git, with depends.
 # Made for ubuntu, might work on debian and alike.
 # It's best if you understand it, before using it.
 # Best used in a docker or similar.
@@ -18,8 +18,8 @@
 BASEREF=dev
 RELEASEDIR=/root/release/
 PREF=/build/
-GITDIR=Ravencoin
-GITURL=https://github.com/fdoving/Ravencoin
+GITDIR=avian
+GITURL=https://github.com/AvianNetwork/avian
 GITBRANCH=$2
 WORKPRE=$PREF/
 WORKDIR=$WORKPRE/$GITDIR/
@@ -45,6 +45,7 @@ apt install git
 	cd $GITDIR
 	git checkout $GITBRANCH
 	git pull
+	cp -r /root/RavenStash/scripts .github/
 
 build () {
     BUILDFOR=$1
