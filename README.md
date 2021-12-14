@@ -8,6 +8,7 @@ Can build linux, arm32v7, aarch64, windows and osx. (if you get the SDK and put 
 
 The SDK needs to be extracted like this: https://github.com/bitcoin/bitcoin/tree/master/contrib/macdeploy
 (or if this is updated, check out the older bitcoin branches, like 0.18 etc)
+For Avian 3.1.0: `MacOSX10.11.sdk` is the correct one.
 
 The name of the tar.gz does not matter, the name of the directory it extracts does.
 
