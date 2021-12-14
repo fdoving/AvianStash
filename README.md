@@ -37,11 +37,11 @@ Example usage:
 
 8. `scp you@fileserver:/your/osx-sdk.tar.gz /tmp/SDKs/`  only needed if you want to build for osx.
 
-10. `root@docker# AvianStash/bfg-fdov.sh linux master 10` <platform> <gitbranch> <makethreads>
+9. `root@docker# AvianStash/bfg-fdov.sh linux master 10` <platform> <gitbranch> <makethreads>
 
-11. Results will appear in /root/releases if everything works.
+10. Results will appear in /root/releases if everything works.
   
-12. Alaternative to 10: `root@docker# AvianStash/bfg-fdov.sh linux,arm32v7,aarch64,windows,osx master 10`
+11. Alaternative to 9: `root@docker# AvianStash/bfg-fdov.sh linux,arm32v7,aarch64,windows,osx master 10`
 
 
 
