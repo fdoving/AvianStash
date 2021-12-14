@@ -4,7 +4,7 @@ Stash for Avian-stuff.
 ## bfg-fdov.sh
 Quick hack to install depends, checkout a branch and build Avian.
 
-Can build linux, arm32v7, windows and osx. (if you get the SDK and put it in /tmp/SDKs/ as the only tar.gz file)
+Can build linux, arm32v7, aarch64, windows and osx. (if you get the SDK and put it in /tmp/SDKs/ as the only tar.gz file)
 
 The SDK needs to be extracted like this: https://github.com/bitcoin/bitcoin/tree/master/contrib/macdeploy
 (or if this is updated, check out the older bitcoin branches, like 0.18 etc)
