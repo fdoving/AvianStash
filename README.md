@@ -40,6 +40,8 @@ Example usage:
 10. `root@docker# AvianStash/bfg-fdov.sh linux master 10` <platform> <gitbranch> <makethreads>
 
 11. Results will appear in /root/releases if everything works.
+  
+12. Alaternative to 10: `root@docker# AvianStash/bfg-fdov.sh linux,arm32v7,aarch64,windows,osx master 10`
 
 
 
