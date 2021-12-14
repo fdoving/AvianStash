@@ -45,7 +45,7 @@ apt install git
 	cd $GITDIR
 	git checkout $GITBRANCH
 	git pull
-	cp -r /root/RavenStash/scripts .github/
+	cp -r /root/AvianStash/scripts .github/
 
 build () {
     BUILDFOR=$1
